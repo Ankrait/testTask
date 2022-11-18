@@ -166,6 +166,9 @@ body {
 .content__details {
   display: none;
 }
+.content .details {
+  display: none;
+}
 .content__container {
   display: flex;
   justify-content: space-between;
