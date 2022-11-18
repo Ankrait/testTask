@@ -1,0 +1,179 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+   
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe_extrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_extrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_extrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_extrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_extrabold.svg#circe_extrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+   
+   font-weight: 800;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe_extralight.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_extralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_extralight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_extralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_extralight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_extralight.svg#circe_extralight') format('svg'); /* Chrome < 4, Legacy iOS */
+
+   font-weight: 200;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_light.svg#circe_light') format('svg'); /* Chrome < 4, Legacy iOS */
+
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+
+   font-weight: normal;
+   font-style: normal;
+}
+
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: "Circe";
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+ 
+ /* Теперь можно использовать шрифт */
+ body {
+   font-family: "Circe";
+ }
+
+/*--------------------*/
+
+[class*="__container"] {
+   max-width: 1370px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.wrapper {
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex: 1 1 100%;
+}
